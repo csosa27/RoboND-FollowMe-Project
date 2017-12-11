@@ -101,9 +101,9 @@ Encoders and decoders are the two parts that normally used to create a FCN. Enco
 From what I understand this model might be able to be repurposed to follow another object such as a car, if training data for car classification is obtained. The FCN model itself seems well structured to be trained on different objects, all it requires is new training and validation data for that specific object. 
 
 #### Further Improvements
-As seen on **Figure**  **3**, segmentation results might be improved on when Hero is far. Maybe better resolution images or even more training data with far away hero. This might help train the model better to recognize the hero when far. 
+As seen on **Figure**  **3**, segmentation results might be improved on when Hero is far; maybe collecting better resolution images or even more training data with far away hero. This might help train the model better to recognize the hero when far. 
 
-Also, to improve accuracy, more training data could be collected. For this project I used training data provided, and although I managed to achieve 40.6% (0.406) IoU final score, a better score might be attainable with better training data, and possibly different hyperparameters. More epochs and a lower learning rate might also help increase the accuracy of the model. 
+Also, to improve accuracy, more training data could be collected. For this project I used training data provided, and although I managed to achieve 42.7% (0.427) IoU final score, a better score might be attainable with better training data, and possibly different hyperparameters. More epochs and a lower learning rate might also help increase the accuracy of the model. 
 
 ![alt text][image3]
 ###### **Figure**  **3** : Drone Patrol with Hero
