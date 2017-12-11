@@ -64,7 +64,7 @@ The first iteration of training was performed locally to test out feasibility wi
 
 On the first AWS GPU training, the learning rate was reduced. The amount of images downloaded (around 4131 images) were considered to choose the batch_size and steps_per_epoch ~ the method initially used was images/(2*batch_size) = steps_per_epoch ~ using 64 as initial batch_size resulting in steps_per_epoch ~= 32. While the num_epochs and workers values were increased to improve learning and speeding training process, respectively. These hyperparameters produced weights of 30% accuracy.
 
-The second AWS training iteration, the learning rate, batch_size, and steps_per_epoch were modified, the batch_size was increased to 100, the steps_per_epoch were reset to the recommended value (200). and the learning rate was increased to 0.005 to increase learning speed. This produced weights of 35% accuracy.
+The second AWS training iteration, the learning rate, batch_size, and steps_per_epoch were modified, the batch_size was increased to 100, the steps_per_epoch were reset to the recommended value (200), and the learning rate was increased to 0.005 to increase learning speed. This produced weights of 35% accuracy.
 
 The third AWS iteration, learning_rate was the only modified parameter, changing from 0.005 to 0.008. This improved accuracy further to ~39%.
 
